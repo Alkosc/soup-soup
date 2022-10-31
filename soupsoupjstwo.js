@@ -141,24 +141,7 @@ ScrollTrigger.create({
     pin: true,
     scrub: 1,
 });
-var thirdteenslidemobile = gsap.timeline();
-// Or you can attach a tween or timeline to a ScrollTrigger later
-thirdteenslidemobile.from("#thirdteenslidemobileheader", 
-{
-	xPercent: 300,
-})
 
-;
-ScrollTrigger.create({
-
- trigger: "#thirdteenslidemobile",
- animation: thirdteenslidemobile,
-    markers: false,
-    start: "top top",
-    end: "+=5000",
-    pin: true,
-    scrub: 1,
-});
 var fourteenthslide = gsap.timeline();
 // Or you can attach a tween or timeline to a ScrollTrigger later
 fourteenthslide.from(".imageslide14", 
