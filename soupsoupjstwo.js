@@ -141,7 +141,7 @@ ScrollTrigger.create({
     pin: true,
     scrub: 1,
 });
-var thirdteenslidemobileheader = gsap.timeline();
+var thirdteenslidemobile = gsap.timeline();
 // Or you can attach a tween or timeline to a ScrollTrigger later
 thirdteenslidemobile.from("#thirdteenslidemobileheader", 
 {
