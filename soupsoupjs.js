@@ -539,7 +539,7 @@ ScrollTrigger.create({
  animation: ninthslide,
     markers: false,
     start: "top top",
-    end: "+=4000",
+    end: "+=5000",
     pin: true,
     scrub: 1,
 });
