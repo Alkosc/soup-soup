@@ -524,7 +524,7 @@ ninthslide.from(".ninthslideheader",
 .to(".animationwrapper", 
 {
 	xPercent: 100,
-  delay: 3,
+  delay: 1,
 })
 .to(".ninthslideheader", 
 {
