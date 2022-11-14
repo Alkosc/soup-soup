@@ -162,7 +162,7 @@ thirdslide.from(".slide4header", {
 .to(".slide4text", {
   yPercent:-400,
   opacity: 0,
-},">0.5")
+})
 .to(".slide4header", {
   yPercent:-400,
   opacity: 0,
