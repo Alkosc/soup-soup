@@ -147,48 +147,6 @@ ScrollTrigger.create({
     scrub: 1,
 });
 
-/* 
-
-var thirdslide = gsap.timeline();
-// Or you can attach a tween or timeline to a ScrollTrigger later
-thirdslide.from(".slide4header", {
-  yPercent:400,
-  opacity: 0,
-})
-
-.from(".slide4text", {
-  yPercent:400,
-  opacity: 0,
-},"<0.2")
-
-.to(".slide4text", {
-  yPercent:-400,
-  opacity: 0,
-})
-.to(".slide4header", {
-  yPercent:-400,
-  opacity: 0,
-},"<0.2")
-
-.to(".handyanimationwrapper", {
-  yPercent:150,
-  opacity: 0,
-},"<0.2")
-;
-
-
-ScrollTrigger.create({
-
- trigger: "#thirdslide",
- animation: thirdslide,
-    markers: true,
-    start: "top top",
-    end: "+=3500",
-    pin: true,
-    scrub: 1,
-});
-
-*/
 
 var fourthslide = gsap.timeline();
 // Or you can attach a tween or timeline to a ScrollTrigger later
