@@ -166,7 +166,7 @@ thirdslide.from(".slide4header", {
 .to(".slide4header", {
   yPercent:-400,
   opacity: 0,
-  duration: 4,
+  duration: 1,
 },"<0.2")
 .to(".handyanimationwrapper", {
   yPercent:150,
