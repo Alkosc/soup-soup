@@ -181,7 +181,7 @@ ScrollTrigger.create({
  animation: thirdslide,
     markers: false,
     start: "top top",
-    end: "+=4000",
+    end: "+=3500",
     pin: true,
     scrub: 1,
 });
