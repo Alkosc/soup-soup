@@ -166,8 +166,8 @@ thirdslide.from(".slide4header", {
 .to(".slide4header", {
   yPercent:-400,
   opacity: 0,
-  duration: 1,
 },"<0.2")
+
 .to(".handyanimationwrapper", {
   yPercent:150,
   opacity: 0,
@@ -179,7 +179,7 @@ ScrollTrigger.create({
 
  trigger: "#thirdslide",
  animation: thirdslide,
-    markers: false,
+    markers: true,
     start: "top top",
     end: "+=3500",
     pin: true,
