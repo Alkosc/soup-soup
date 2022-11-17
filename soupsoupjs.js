@@ -147,6 +147,8 @@ ScrollTrigger.create({
     scrub: 1,
 });
 
+/* 
+
 var thirdslide = gsap.timeline();
 // Or you can attach a tween or timeline to a ScrollTrigger later
 thirdslide.from(".slide4header", {
@@ -186,6 +188,7 @@ ScrollTrigger.create({
     scrub: 1,
 });
 
+*/
 
 var fourthslide = gsap.timeline();
 // Or you can attach a tween or timeline to a ScrollTrigger later
